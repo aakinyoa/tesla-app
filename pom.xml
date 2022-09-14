@@ -20,7 +20,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.80.33.199:9000/</sonar.host.url>
+		<sonar.host.url>http://54.210.97.33:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -95,14 +95,14 @@
 		
 	    <repository>
 	      <id>nexus</id>
-	      <name>tesla-release</name>
-	      <url>http://34.227.13.35:8081/repository/tesla-release/</url> 
+	      <name>akin_release</name>
+	      <url>http://35.170.249.212:8081/repository/akin_release/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>tesla-snapshots</name>
-	      <url>http://34.227.13.35:8081/repository/tesla-snapshots/</url>
+	      <name>akin</name>
+	      <url>http://35.170.249.212:8081/repository/akin/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	

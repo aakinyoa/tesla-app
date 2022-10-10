@@ -20,7 +20,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://44.203.140.215:9000/</sonar.host.url>
+		<sonar.host.url>http://54.172.171.152:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -95,14 +95,14 @@
 		
 	    <repository>
 	      <id>nexus</id>
-	      <name>olufunke-release</name>
-	      <url>http://44.202.231.208:8081/repository/olufunke-release/</url> 
+	      <name>akin1010-release</name>
+	      <url>http://34.205.23.192:8081/repository/akin1010-release/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>akin</name>
-	      <url>http://44.202.231.208:8081/repository/olufunke-snapshot/</url>
+	      <name>akin1010-snapshot</name>
+	      <url>http://34.205.23.192:8081/repository/akin1010-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
